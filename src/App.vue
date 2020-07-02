@@ -75,8 +75,8 @@
 			-moz-osx-font-smoothing: grayscale;
 			text-align: center;
 			color: #2c3e50;
-			width: 1917px;
-			height: 936px;
+			width: 100%;
+			height: 100%;
 			position: relative;
 			background-image: url(assets/background.jpg);
 			background-position: 100% 100%;
@@ -116,8 +116,9 @@
 	
 		/* 特效 */
 		#particles-js {
-			width: 1917px;
+			width: 100%;
 			height: 936px;
+			z-index: 7;
 		}
 	
 		a {
